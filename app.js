@@ -22,7 +22,7 @@ res.render("list",{newdate:day ,newitem:items});
 app.post("/" ,function(req,res){
  item=req.body.list;
  items.push(item);
- console.log(items[i]);
+
 
 res.redirect("/");
 
